@@ -1,6 +1,7 @@
 import {Button, Layout} from "antd";
 import React from "react";
 import Header from "../Header"
+import Beers from "../Beers"
 
 const { Content, Footer } = Layout
 
@@ -10,7 +11,7 @@ export default () => (
         <Content style={{padding: "0 50px"}}>
             <div className="site-layout-content" style={{margin: "100px 0"}}>
                 <h1>Beers catalogue</h1>
-                <em>Work in progress</em>
+                <Beers />
             </div>
         </Content>
         <Footer style={{ textAlign: "center"}}>Marine Lancien ©2024</Footer>
