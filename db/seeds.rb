@@ -7,3 +7,6 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+Beer.create name: "Carribean Rum Cask", brand: "Innis & Gunn", country: "UK", style: "Scottish Export Ale"
+Beer.create name: "Duchesse de Bourgogne", brand: "Browerij Verhaeghe", country: "Belgium", style: "Flanders Red Ale"
+Beer.create name: "Coco Cocoa", brand: "Thornbridge Brewery", country: "UK", style: "American Porter"
